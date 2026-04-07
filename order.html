@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Place Order</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="glass">
+<div class="logo">Lin’s Bakery</div>
+
+<nav>
+<a href="HomePage.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="order.html">Order</a>
+</nav>
+</header>
+
+<section class="about">
+<h2>Order Form</h2>
+
+<form id="orderForm">
+
+<label>Name</label>
+<input type="text" name="name" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Phone</label>
+<input type="tel" pattern="[0-9]{7,10}" placeholder="8681234567" required>
+
+<label>Select Product</label>
+<select required>
+<option value="">Choose Product</option>
+<option>Chocolate Cake</option>
+<option>Fresh Bread</option>
+<option>Croissants</option>
+<option>Cupcakes</option>
+</select>
+
+<label>Order Details</label>
+<textarea rows="4"></textarea>
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>&copy; 2026 Lin Homemade Bakery</p>
+</footer>
+
+</body>
+</html>
